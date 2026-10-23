@@ -1,8 +1,8 @@
 # Paulmann Gent 2 Blueprint for Home Assistant
-# Version 1.0.0.0
-# By IceBeach7
+# Version 1.0.0.1
+# Forked from IceBeach7
 #
-# https://github.com/IceBeach7/HASS-Paulmann-Gent-2
+# https://github.com/erhardt-labs/HASS-Paulmann-Gent-2
 
 blueprint:
   domain: automation
@@ -16,9 +16,13 @@ blueprint:
       description: "The remote connected through ZHA."
       selector:
         device:
-          integration: zha
-          manufacturer: "Paulmann Licht GmbH"
-          model: "501.40"
+          filter:
+            - integration: zha
+              manufacturer: "Paulmann Licht GmbH"
+              model: "501.40"
+            - integration: zha
+              manufacturer: "Paulmann Licht GmbH"
+              model: "50140"
 
     # Definition of the actions
     s1_section:
