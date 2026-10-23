@@ -10,7 +10,7 @@ It is probably also working with the Sunricher ZG2868, as stated [here](https://
 ## Installation
 Simply click on this link:
 
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Ferhardt-labs%2Fha-blueprint-paulmann-gent-2%2Fblob%2Fmain%2Fpaulmann-gent-2.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Ferhardt-labs%2Fha-blueprint-paulmann-gent-2%2Frefs%2Fheads%2Fmain%2Fpaulmann-gent-2.yaml)
 
 ---
 
